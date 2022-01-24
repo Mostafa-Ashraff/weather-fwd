@@ -38,5 +38,5 @@ app.post('/add', function (req, res) {
     content: req.body.content
   }
   
-  projectData.push(userEntry);
+  projectData = userEntry;
 });
